@@ -1,7 +1,7 @@
 {
-  "name": "assignment",
+  "name": "assignment-template",
   "version": "1.0.0",
-  "description": "",
+  "description": "Template for websocket based application",
   "main": "index.js",
   "type": "module",
   "scripts": {
