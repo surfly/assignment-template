@@ -1,11 +1,11 @@
-let userCounter = 0;
+let idCounter = 0;
 
 /**
  * @param {SocketIO.Server} io
  */
 function initSocketApp(io) {
     io.on('connection', (socket) => {
-        const userId = userCounter++;
+        const userId = idCounter++;
         console.log(`User connected, id: ${userId}`);
 
         // emit `user-connected` event to all open connections except this
